@@ -25,3 +25,15 @@
  * support for it is not everywhere.
  */
 
+let myName = 'Joseph'
+let greeting = 'Good day to you'
+let friend = 'Steve'
+let brother = 'Eric'
+let todaysDate = 2
+let todaysMonth = 5
+let todaysYear = 2023
+let myAge = 36
+
+console.log(greeting + ', ' + friend)
+console.log(`${greeting}, ${brother}!`)
+console.log(`${greeting} on this day, ${todaysDate} of ${todaysMonth}, ${friend}!`)

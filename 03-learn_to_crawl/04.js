@@ -21,5 +21,28 @@
  * with clear and descriptive names.
  */
 
-let result = 0
-console.log("Label", result)
+let numOne = 1234;
+let numTwo = 5678;
+let numThree = 9012;
+let luckyNumber = 7;
+
+result = numOne + numTwo + numThree
+console.log("Sum of all numbers", result)
+
+result = numThree - (numOne + numTwo)
+console.log("Subtracting smaller numbers from larger number", result)
+
+result = numOne * numTwo * numThree
+console.log("Multiplying all the numbers", result)
+
+result = numThree / (numTwo - numOne)
+console.log("Largest number divided by the difference between the smaller ones", result)
+
+result = numOne % luckyNumber
+console.log("Result of numOne modulo 7", result)
+
+result = numTwo % luckyNumber
+console.log("Result of numTwo modulo 7", result)
+
+result = numThree % luckyNumber
+console.log("Result of numThree modulo 7", result)
